@@ -7,12 +7,8 @@
 default: &default
   adapter: postgresql
   host: localhost
-  username: root
+  username: koichiro
   encoding: utf8
-  timeout: 5000
-
-  adapter: sqlite3
-  pool: 5
   timeout: 5000
 
 development:
